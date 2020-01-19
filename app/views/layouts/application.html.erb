@@ -9,7 +9,26 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+
   <body>
-    <%= yield %>
+
+    <header>
+      <h1>Dic_day10 App</h1>
+      <ul>
+        <li><a href="top#index">1. トップページ</a></li>
+        <li><a href="blogs#index">2. Blog一覧ページ</a></li>
+        <li><a href="users#index">3. User一覧ページ</a></li>
+      </ul>
+    </header>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <footer>
+      <p>DIVE INTO CODE Part time Aug</p>
+      <p>©dic_day10 Yuya Manish Tsuta Thi all rights reserved.</p>
+    </footer>
+
   </body>
 </html>

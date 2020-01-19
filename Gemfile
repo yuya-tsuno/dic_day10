@@ -60,3 +60,21 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+# # less(CSS)対応（後述LESSを使う場合）
+# gem 'less-rails'
+# # JavaScript のエンジンである v8 を Ruby から使えるようにする
+# gem 'therubyracer'
+# # JavaScriptコードを実行するためのエンジン
+# gem 'execjs'
+
+# # Twitter社が提供しているCSSとJavaScriptのフレームワーク
+# gem 'twitter-bootstrap-rails'
+
+gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
+
+# gem 'therubyracer' # javascript runtime。lessをコンパイルするために必要
+# gem 'less-rails' # Railsでlessを使えるようにする。Bootstrapがlessで書かれているため
+# gem 'twitter-bootstrap-rails' # Bootstrapの本体
